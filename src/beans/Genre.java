@@ -18,6 +18,7 @@ public class Genre {
         this.id = id;
     }
 
+    //region get\set
     public long getId() {
         return id;
     }
@@ -33,6 +34,7 @@ public class Genre {
     public void setName(String name) {
         this.name = name;
     }
+    //endregion
 
 
 }

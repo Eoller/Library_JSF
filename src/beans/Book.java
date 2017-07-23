@@ -17,6 +17,8 @@ public class Book implements Serializable {
     private byte[] image;
     private String descr;
 
+    //<editor-fold desc="get\set">
+
     public boolean isEdit() {
         return edit;
     }
@@ -112,6 +114,7 @@ public class Book implements Serializable {
     public void setDescr(String descr) {
         this.descr = descr;
     }
+    //</editor-fold>
 
 
 }

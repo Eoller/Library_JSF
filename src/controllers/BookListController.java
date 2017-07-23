@@ -35,6 +35,7 @@ public class BookListController implements Serializable {
 
     public BookListController() {
         fillBooksAll();
+        searchType = SearchType.AUTHOR;
     }
 
     private void fillBooksBySQL(String sql) {
@@ -124,6 +125,7 @@ public class BookListController implements Serializable {
         searchType = (SearchType) e.getNewValue();
     }
 
+    //<editor-fold desc="fillBooksBy...">
     public String fillBooksByGenre() {
 
         Map<String, String> params = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
@@ -184,6 +186,7 @@ public class BookListController implements Serializable {
 
         return "books";
     }
+    //</editor-fold>
 
     public void selectPage() {
         cancelEdit();
