@@ -27,7 +27,7 @@
     </resource-ref>
     <servlet>
         <servlet-name>ShowImage</servlet-name>
-        <servlet-class>servlets.ShowImage</servlet-class>
+        <servlet-class>main.java.servlets.ShowImage</servlet-class>
     </servlet>
 
     <servlet-mapping>

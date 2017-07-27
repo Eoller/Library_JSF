@@ -9,7 +9,7 @@
 
     <application>
         <resource-bundle>
-            <base-name>nls.messages</base-name>
+            <base-name>main.java.nls.messages</base-name>
             <var>msg</var>
         </resource-bundle>
     </application>
